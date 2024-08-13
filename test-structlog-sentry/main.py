@@ -31,6 +31,7 @@ def main():
         1/0
     except ZeroDivisionError:
         log.error("zero division")
+        raise 
 
 
 if __name__ == "__main__":

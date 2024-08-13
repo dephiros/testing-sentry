@@ -1,5 +1,5 @@
-structlog-sentry
-
 ipdb
 
--e ../../../code/sentry-python  # sdk in a sibling folder to this projects folder
+structlog-sentry==2.1.0
+sentry-sdk==2.12.0
+
